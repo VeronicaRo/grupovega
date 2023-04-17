@@ -1,0 +1,214 @@
+html {
+    box-sizing: border-box;
+}
+a {
+  @include transition(all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0s);
+  color: $secondary_color;
+}
+a, a:hover, a:focus, a:before, a:after {
+  outline: none !important;
+  text-decoration: none !important;
+}
+a:hover, a:focus {
+  color: $link_color_active;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  font-weight: normal;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  font-family: $secondary_font;
+  color: #9b9b9b;
+}
+p {
+  margin-bottom: 15px;
+}
+.site {
+  position: relative;
+  overflow: hidden;
+}
+
+// Headings
+//--------------------------------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  clear: both;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  font-family: $default_font;
+  color: #333;
+}
+
+h1, .h1 {
+    font-size: 45px;
+}
+
+h2, .h2 {
+    font-size: 33px;
+}
+
+h3, .h3 {
+    font-size: 21px;
+}
+
+h4, .h4 {
+    font-size: 17px;
+}
+
+h5, .h5 {
+    font-size: 15px;
+}
+
+h6, .h6 {
+    font-size: 15px;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+// Unit Test
+//--------------------------------------------------
+
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+    @include border-radius(0);
+    th {
+      color: $color_dark;
+    }
+}
+caption, td {
+    font-weight: normal;
+    text-align: left;
+}
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+  padding: 13px 8px;
+}
+th {
+  font-weight: 700;
+}
+td {
+    border-top: 1px solid #ededed;
+    padding: 6px;
+}
+/*--- Definition Lists ---*/
+dl {
+    margin: 0 0 0 25px;
+}
+dl dt {
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+dl dd {
+    line-height: normal;
+    margin-bottom: 20px;
+    a {
+      color: #000;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+}
+code, kbd {
+    background-color: transparent;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 100%;
+    padding: 2px 4px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+ins {
+    color: #fff;
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+    background-color: $primary_color;
+}
+pre {
+    background: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+ol {
+  list-style: outside none decimal;
+}
+ul {
+  padding: 0;
+  margin: 0px 0px 0px 15px;
+}
+blockquote {
+  border-left: 4px solid $primary_color;
+  font-size: 15px;
+  line-height: normal;
+  padding: 0px 0px 0px 16px;
+  color: #222;
+  font-family: inherit;
+  font-style: italic;
+  font-weight: 500;
+  cite {
+    font-style: normal;
+    display: block;
+    color: rgba(#000000, 0.33);
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}
+
+dl + h2 + ul {
+  padding-left: 35px;
+  ul {
+    padding-left: 35px;
+  }
+}
+.post-password-form {
+  label {
+    display: block;
+    max-width: 60%;
+  }
+  input {
+    margin: 10px 0;
+  }
+}
+@media #{$max-sm} {
+  .post-password-form label {
+    max-width: 60%;
+  }
+}

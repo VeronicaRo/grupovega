@@ -1,0 +1,133 @@
+/**
+ * Theme Option
+ */
+.redux-main .wp-picker-container {
+    display: inline-block;
+}
+.redux-main .color-transparency-check {
+    display: inline-block;
+    margin: 6px 0 !important;
+}
+.redux-sidebar .redux-group-menu li.active > a, .redux-sidebar .redux-group-menu li:hover > a {
+    background-color: #98cb2b !important;
+    color: #fff !important;
+}
+.wp-admin.admin-color-fresh .redux-container-switch .cb-enable.selected, 
+.wp-admin.admin-color-fresh .redux-field-container .ui-buttonset .ui-state-active, 
+.wp-admin.wp-customizer .redux-container-switch .cb-enable.selected, 
+.wp-admin.wp-customizer .redux-field-container .ui-buttonset .ui-state-active {
+	background-color: #98cb2b !important;
+	background-image: none !important;
+	border-color: #98cb2b !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+}
+
+.redux-container-image_select ul.redux-image-select {
+	margin: 0 -15px !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+	padding: 0 15px !important;
+	margin: 0 0 30px !important;
+}
+#cms_theme_options-all_careers_page ul.redux-image-select,
+#cms_theme_options-single_post_layout ul.redux-image-select,
+#cms_theme_options-singe_service_layout ul.redux-image-select,
+#cms_theme_options-singe_portfolio_layout ul.redux-image-select {
+	display: flex;
+	display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.wp-admin.admin-color-fresh .redux-container-image_select .redux-image-select-selected img, 
+.wp-admin.wp-customizer .redux-container-image_select .redux-image-select-selected img {
+	border-color: #98cb2b !important;
+	box-shadow: 0 1px 6px #98cb2b !important;
+	-webkit-box-shadow: 0 1px 6px #98cb2b !important;
+	-ms-box-shadow: 0 1px 6px #98cb2b !important;
+}
+.redux-container-color .wp-picker-container {
+	display: inline-block;
+}
+.redux-container-color .color-transparency-check {
+	display: inline-block;
+    margin: 5px 0;
+}
+.term-php .form-field {
+	display: table-row !important;
+}
+.redux-container .redux-container-context-side .redux-main {
+	padding: 20px !important;
+}
+.redux-container .redux-container-media img {
+	max-width: 200px !important;
+	margin-bottom: 10px !important;
+}
+.vc_edit_form_elements .vc_column {
+	padding-top: 30px !important;
+}
+.panel-primary > .panel-heading {
+	background-image: none !important;
+	background-color: #98cb2b !important;
+}
+.description.field-desc {
+	font-style: italic;
+    opacity: 0.4;
+}
+.post-type-post .redux-container .redux-main {
+	min-height: auto;
+}
+.post-type-post .redux-container .redux-sidebar {
+	display: none;
+}
+.wp-admin [id*="mymetabox_revslider_"], .wp-admin [id^="mymetabox_revslider_"] {
+	display: none;
+}
+
+.cms-dashboard-item i.dashicon {
+	background-color: #98cb2b;
+}
+.cms-dashboard-item a {
+	background-color: #98cb2b;
+}
+.cms-dashboard-item a:hover, .cms-dashboard-item a:focus {
+	background-color: #98cb2b;
+}
+.cms-dashboard-ticket a {
+	border-color: #98cb2b;
+}
+.cms-dashboard-ticket a:hover, .cms-dashboard-ticket a:focus {
+	color: #98cb2b;
+}
+.vc_el-container [id*='cms_'] .vc_element-icon, .vc_el-container [id^='cms_'] .vc_element-icon {
+	background-image: url('../images/el-icon.png');
+	background-color: transparent;
+	background-position: center;
+}
+
+.wp-core-ui .swa-ie-dashboard .button {
+	background-color: #98cb2b;
+	border-color: #98cb2b;
+	box-shadow: 0 1px 0 #98cb2b;
+	-webkit-box-shadow: 0 1px 0 #98cb2b;
+	-ms-box-shadow: 0 1px 0 #98cb2b;
+}
+.wp-core-ui .swa-ie-dashboard .button:hover, .wp-core-ui .swa-ie-dashboard .button:focus {
+	background-color: #98cb2b;
+	border-color: #98cb2b;
+}
+.swa-import-contains .swa-ie-image::before {
+	background-color: #98cb2b;
+}
+.video-tutorial .dash-deactivate {
+	display: none;
+}
+.post-type-appointment #submitdiv,
+.post-type-appointment #normal-sortables,
+.post-type-appointment #post-body-content{
+    display: none;
+}
+.vc_element-icon.cs_icon_for_vc{
+    background-image:url(../images/vc-icon.png) ;
+}

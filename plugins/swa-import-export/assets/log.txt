@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Set home page successfully!
+Set blog page successfully!
+Set shop page successfully!
+Set cart page successfully!
+Set checkout page successfully!
+Set my account page successfully!
+Import menus successfully!
+Import wp options successfully!
+Crop images successfully!
+Import term meta successfully!

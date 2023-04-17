@@ -1,0 +1,627 @@
+# Translation of Plugins - Floating Notification Bar, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme &#8211; myStickymenu - Stable (latest release) in Spanish (Mexico)
+# This file is distributed under the same license as the Plugins - Floating Notification Bar, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme &#8211; myStickymenu - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-21 13:02:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: es_MX\n"
+"Project-Id-Version: Plugins - Floating Notification Bar, Sticky Menu on Scroll, Announcement Banner, and Sticky Header for Any Theme &#8211; myStickymenu - Stable (latest release)\n"
+
+#: welcome-bar.php:363
+msgid "Launch a Poptin pop-up"
+msgstr "Lanzar una ventana emergente de Poptin"
+
+#: welcome-bar.php:377
+msgid "Poptin pop-up direct link"
+msgstr "Enlace directo de la ventana emergente de Poptin"
+
+#: welcome-bar.php:659
+msgid "Poptin pop-up is not configured properly"
+msgstr "La ventana emergente de Poptin no está configurada correctamente"
+
+#: mystickymenu.php:567
+msgid "Need help finding your ID/Class? Install <a href=\"%s\" target=\"_blank\">CSS Peeper</a> to quickly get your navigation menu ID/Class. Here's a quick <a href=\"%s\" target=\"_blank\">video <span class=\"dashicons dashicons-controls-play\"></span></a> of how you can do it."
+msgstr "¿Necesitas ayuda para encontrar tu ID/Clase? Instala <a href=\"%s\" target=\"_blank\">CSS Peeper</a> para obtener rápidamente el ID/Clase de tu menú de navegación. Aquí tienes un <a href=\"%s\" target=\"_blank\">video <span class=\"dashicons dashicons-controls-play\"></span></a> rápido sobre cómo puedes hacerlo."
+
+#: welcome-bar.php:394
+msgid "Redirection link"
+msgstr "Enlace de redirección"
+
+#: welcome-bar.php:410
+msgid "rel Attribute"
+msgstr "Atributo \"rel\""
+
+#: recommended-plugins.php:93
+msgid "Try out our recommended plugins"
+msgstr "Prueba nuestros plugins recomendados"
+
+#: recommended-plugins.php:95
+msgid "Hide From Menu"
+msgstr "Ocultar del menú"
+
+#. translators: %s: Plugin author.
+#: recommended-plugins.php:141
+msgid "By %s"
+msgstr "Por %s"
+
+#. translators: %s: Plugin name and version.
+#: recommended-plugins.php:165
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Instalar %s ahora"
+
+#: recommended-plugins.php:167
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: recommended-plugins.php:172
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr "No se puede instalar"
+
+#. translators: %s: Plugin name and version.
+#: recommended-plugins.php:187
+msgctxt "plugin"
+msgid "Update %s now"
+msgstr "Actualizar %s ahora"
+
+#: recommended-plugins.php:189
+msgid "Update Now"
+msgstr "Actualizar ahora"
+
+#: recommended-plugins.php:194
+msgctxt "plugin"
+msgid "Cannot Update"
+msgstr "No se puede actualizar"
+
+#: recommended-plugins.php:205
+msgctxt "plugin"
+msgid "Active"
+msgstr "Activado"
+
+#: recommended-plugins.php:208
+msgid "Activate"
+msgstr "Activar"
+
+#. translators: %s: Plugin name.
+#: recommended-plugins.php:210
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Activar %s"
+
+#: recommended-plugins.php:221
+msgid "Network Activate"
+msgstr "Activar para la red"
+
+#. translators: %s: Plugin name.
+#: recommended-plugins.php:223
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr "Activar %s para la red"
+
+#: recommended-plugins.php:236
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Instalado"
+
+#. translators: %s: Plugin name and version.
+#: recommended-plugins.php:252
+msgid "More information about %s"
+msgstr "Más información sobre %s"
+
+#: recommended-plugins.php:254
+msgid "More Details"
+msgstr "Más detalles"
+
+#: recommended-plugins.php:284
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr "Este plugin no funciona con tus versiones de WordPress y PHP."
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: recommended-plugins.php:288
+msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
+msgstr "<a href=\"%1$s\">Por favor, actualiza WordPress</a> y después <a href=\"%2$s\">aprende más sobre cómo actualizar PHP</a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: recommended-plugins.php:296 recommended-plugins.php:312
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Por favor, actualiza WordPress</a>."
+
+#. translators: %s: URL to Update PHP page.
+#: recommended-plugins.php:302 recommended-plugins.php:321
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">Aprende más sobre cómo actualizar PHP</a>."
+
+#: recommended-plugins.php:308
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr "Este plugin no funciona con tu versión de WordPress."
+
+#: recommended-plugins.php:317
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr "Este plugin no funciona con tu versión de PHP."
+
+#: recommended-plugins.php:365
+msgid "Last Updated:"
+msgstr "Última actualización:"
+
+#. translators: %s: Human-readable time difference.
+#: recommended-plugins.php:368
+msgid "%s ago"
+msgstr "hace %s"
+
+#. translators: %s: Number of millions.
+#: recommended-plugins.php:377
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] "Más de %s millón"
+msgstr[1] "Más de %s millones"
+
+#: recommended-plugins.php:381
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "Menos de 10"
+
+#. translators: %s: Number of installations.
+#: recommended-plugins.php:386
+msgid "%s Active Installations"
+msgstr "%s instalaciones activas"
+
+#: recommended-plugins.php:392
+msgid "Untested with your version of WordPress"
+msgstr "No probado con tu versión de WordPress"
+
+#: recommended-plugins.php:394
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Incompatible</strong> con tu versión de WordPress"
+
+#: recommended-plugins.php:396
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Compatible</strong> con tu versión de WordPress"
+
+#: recommended-plugins.php:406 stickymenu-dashboard.php:52
+#: stickymenu-dashboard.php:84 stickymenu-dashboard.php:252
+msgid "Are you sure?"
+msgstr "¿Estás seguro?"
+
+#: recommended-plugins.php:407
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr "Si ocultas del menú la página de plugins recomendados, no volverán a aparecer. ¿Seguro que quieres hacerlo?"
+
+#: mystickymenu.php:1344
+msgid "Your request is not valid"
+msgstr "Tu solicitud no es válida"
+
+#: mystickymenu-deactivate-form.php:141
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: mystickymenu-deactivate-form.php:130
+msgid "Your comment"
+msgstr "Tu comentario"
+
+#: mystickymenu-deactivate-form.php:127
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: mystickymenu-deactivate-form.php:122
+msgid "Quick feedback about My Sticky Menu"
+msgstr "Comentarios rápidos sobre My Sticky Menu"
+
+#: welcome-bar.php:468
+msgid "Slide in"
+msgstr "Deslizar"
+
+#: welcome-bar.php:467
+msgid "No effect"
+msgstr "Sin efecto"
+
+#: welcome-bar.php:463
+msgid "Entry effect"
+msgstr "Efecto de entrada"
+
+#: welcome-bar.php:451
+msgid "Sec"
+msgstr "segundos"
+
+#: welcome-bar.php:449
+msgid "Close welcome bar after "
+msgstr "Cerrar la barra de bienvenida después de "
+
+#: mystickymenu-deactivate-form.php:125
+msgid "Your feedback will help us improve the product, please tell us why did you decide to deactivate My Sticky Menu :)"
+msgstr "Tus comentarios nos ayudarán a mejorar el producto, por favor, dinos por qué has decidido desactivar My Sticky Menu  :)"
+
+#: mystickymenu-deactivate-form.php:135
+msgid "Anonymous feedback"
+msgstr "Comentario anónimo"
+
+#: upgrade-to-pro.php:165
+msgid "30 days money back guaranteed"
+msgstr "Garantía de devolución del dinero de 30 días"
+
+#: upgrade-to-pro.php:168
+msgid "The plugin will always keep working even if you don't renew your license"
+msgstr "El plugin siempre seguirá funcionando, incluso si no renuevas tu licencia"
+
+#: mystickymeny-new-welcomebar.php:2
+msgid "Create a new My Sticky Welcome bar for your website. What can you use it for?"
+msgstr "Crea una nueva barra de bienvenida de «My Sticky» para tu web. ¿Para qué la puedes usar?"
+
+#: mystickymenu.php:668
+msgid "Sticky Text Color"
+msgstr "Color del texto fijo"
+
+#: welcome-bar.php:348
+msgid "Wobble"
+msgstr "Tambaleo"
+
+#: welcome-bar.php:347
+msgid "Heartbeat"
+msgstr "Latido"
+
+#: welcome-bar.php:346
+msgid "Tada"
+msgstr "Tachán"
+
+#: welcome-bar.php:345
+msgid "Swing"
+msgstr "Balanceo"
+
+#: welcome-bar.php:344
+msgid "Shake"
+msgstr "Sacudida"
+
+#: welcome-bar.php:343
+msgid "Flash"
+msgstr "Flash"
+
+#: welcome-bar.php:342
+msgid "None"
+msgstr "Ninguno"
+
+#: welcome-bar.php:338
+msgid "Attention Effect"
+msgstr "Efecto de llamada de atencón"
+
+#: mystickymenu.php:1011
+msgid "Reset Settings saved."
+msgstr "Restablecer ajustes guardados."
+
+#: welcome-bar.php:650
+msgid "Your Welcome Bar is currently turned off, would you like to save and show it on your site?"
+msgstr "Tu barra de bienvenida está actualmente desactivada, ¿deseas guardarla y mostrarla en tu sitio?"
+
+#: welcome-bar.php:583
+msgid "Preview"
+msgstr "Vista previa"
+
+#: mystickymenu.php:731 mystickymenu.php:769 welcome-bar.php:556
+msgid "Select Rule"
+msgstr "Seleccionar regla"
+
+#: mystickymenu.php:726 mystickymenu.php:764 welcome-bar.php:551
+msgid "Don't show on"
+msgstr "No mostrar en"
+
+#: mystickymenu.php:725 mystickymenu.php:763 welcome-bar.php:550
+msgid "Show on"
+msgstr "Mostrar en"
+
+#: mystickymenu.php:755 welcome-bar.php:535
+msgid "Add Rule"
+msgstr "Añadir regla"
+
+#: mystickymenu.php:704 welcome-bar.php:530
+msgid "Page targeting"
+msgstr "Objetivo de la página"
+
+#: welcome-bar.php:517
+msgid "No expiry date"
+msgstr "Sin fecha de caducidad"
+
+#: welcome-bar.php:512
+msgid "Expiry date"
+msgstr "Fecha de caducidad"
+
+#: welcome-bar.php:500
+msgid "After Scroll"
+msgstr "Después del scroll"
+
+#: welcome-bar.php:497
+msgid "After a few seconds"
+msgstr "Después de unos segundos"
+
+#: welcome-bar.php:491
+msgid "Trigger"
+msgstr "Disparador"
+
+#: welcome-bar.php:475
+msgid " Upgrade Now"
+msgstr " Actualizar ahora"
+
+#: welcome-bar.php:459
+msgid "Display Rules"
+msgstr "Reglas de visualización"
+
+#: welcome-bar.php:400
+msgid "Open in a new tab"
+msgstr "Abrir en nueva pestaña"
+
+#: welcome-bar.php:331
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: welcome-bar.php:325
+msgid "Button Text Color"
+msgstr "Color de texto del botón"
+
+#: welcome-bar.php:319
+msgid "Button Color"
+msgstr "Color del botón"
+
+#: welcome-bar.php:132
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: welcome-bar.php:119
+msgid "Select font family"
+msgstr "Selecciona la familia de fuentes"
+
+#: welcome-bar.php:116
+msgid "Font"
+msgstr "Fuente"
+
+#: welcome-bar.php:92
+msgid "Height"
+msgstr "Altura"
+
+#: welcome-bar.php:86
+msgid "Bottom"
+msgstr "Abajo"
+
+#: welcome-bar.php:82
+msgid "Top"
+msgstr "Arriba"
+
+#: welcome-bar.php:77
+msgid "Position"
+msgstr "Posición"
+
+#: welcome-bar.php:64
+msgid "Welcome Bar"
+msgstr "Barra de bienvenida"
+
+#. Description of the plugin
+msgid "Simple sticky (fixed on top) menu implementation for navigation menu and Welcome bar for announcements and promotion. After install go to Settings / myStickymenu and change Sticky Class to .your_navbar_class or #your_navbar_id."
+msgstr "Implementación simple de menús fijos (en la parte superior) para menús de navegación y barra de bienvenida para anuncios y promociones. Después de instalar ve a Ajustes / myStickymenu y cambia la clase de menú fijo a .clase_de_tu_barra_de_navegacion o #id_de_tu_barra_de_navegacion."
+
+#: mystickymenu.php:458 mystickymenu.php:1000 mystickymenu.php:1014
+msgid "Unable to complete your request"
+msgstr "No ha sido posible completar tu solicitud"
+
+#: mystickymenu.php:285
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#. Author URI of the plugin
+msgid "https://premio.io/downloads/mystickymenu/"
+msgstr "https://premio.io/downloads/mystickymenu/"
+
+#: mystickymenu.php:944
+msgid "Leave a review"
+msgstr "Deja una reseña"
+
+#: mystickymenu.php:939 welcome-bar.php:638
+msgid "Reset"
+msgstr "Restablecer"
+
+#: mystickymenu.php:931 welcome-bar.php:627
+msgid "Save"
+msgstr "Guardar"
+
+#: mystickymenu.php:894
+msgid "<span class=\"description\"><strong>Except for this posts:</strong> </span>"
+msgstr "<span class=\"description\"><strong>Excepto para estas entradas:</strong> </span>"
+
+#: mystickymenu.php:880
+msgid "<span class=\"description\"><strong>Except for this pages:</strong> </span>"
+msgstr "<span class=\"description\"><strong>Excepto para estas páginas:</strong> </span>"
+
+#: mystickymenu.php:872
+msgid "404"
+msgstr "404"
+
+#: mystickymenu.php:866
+msgid "search"
+msgstr "búsqueda"
+
+#: mystickymenu.php:860
+msgid "archives"
+msgstr "archivos"
+
+#: mystickymenu.php:854
+msgid "posts"
+msgstr "entradas"
+
+#: mystickymenu.php:848
+msgid "categories"
+msgstr "categorías"
+
+#: mystickymenu.php:842
+msgid "tags"
+msgstr "etiquetas"
+
+#: mystickymenu.php:836
+msgid "pages"
+msgstr "páginas"
+
+#: mystickymenu.php:830
+msgid "blog page"
+msgstr "página del blog"
+
+#: mystickymenu.php:824
+msgid "front page"
+msgstr "página de inicio"
+
+#: mystickymenu.php:694
+msgid "Hide on Scroll Down"
+msgstr "Ocultar al hacer scroll hacia abajo"
+
+#: mystickymenu.php:622
+msgid "Less than chosen screen width, set 0 to disable"
+msgstr "Menos del ancho de pantalla elegido, configurar a 0 para desactivar"
+
+#: mystickymenu.php:615 welcome-bar.php:469
+msgid "Fade"
+msgstr "Fundido"
+
+#: mystickymenu.php:611
+msgid "Slide"
+msgstr "Deslizar"
+
+#: mystickymenu.php:586 welcome-bar.php:178 welcome-bar.php:314
+#: welcome-bar.php:486
+msgid "Mobile"
+msgstr "Móvil"
+
+#: mystickymenu.php:580 welcome-bar.php:174 welcome-bar.php:310
+#: welcome-bar.php:482
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: mystickymenu.php:574 mystickymenu.php:695 mystickymenu.php:783
+#: mystickymenu.php:818 welcome-bar.php:88 welcome-bar.php:100
+#: welcome-bar.php:196 welcome-bar.php:281 welcome-bar.php:295
+#: welcome-bar.php:406 welcome-bar.php:418 welcome-bar.php:446
+#: welcome-bar.php:570
+msgid "Upgrade Now"
+msgstr "Actualizar ahora"
+
+#: mystickymenu.php:573 welcome-bar.php:478
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: mystickymenu.php:559
+msgid "Other Class Or ID"
+msgstr "Otra clase o ID"
+
+#: mystickymenu.php:523
+msgid "Select Sticky Menu"
+msgstr "Seleccionar menú fijo"
+
+#: mystickymenu.php:508
+msgid "How To Make a Sticky Header"
+msgstr "Cómo hacer fija una cabecera"
+
+#: mystickymenu.php:455 mystickymenu.php:997
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: mystickymenu.php:596 stickymenu-dashboard.php:219
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Author of the plugin
+msgid "Premio"
+msgstr "Premio"
+
+#. Plugin URI of the plugin
+msgid "https://premio.io/"
+msgstr "https://premio.io/"
+
+#: mystickymenu.php:794
+msgid "CSS ID's and Classes to use:"
+msgstr "IDs CSS y clases a utilizar:"
+
+#: mystickymenu.php:699
+msgid "Disable sticky menu at scroll down"
+msgstr "Desactivar menú fijo al hacer scroll hacia abajo"
+
+#: mystickymenu.php:644
+msgid "If set to 0 it will use initial Make visible on Scroll value."
+msgstr "Si se configura a 0 usará el valor inicial de hacer visible al hacer scroll."
+
+#: mystickymenu.php:632
+msgid "If set to 0 auto calculate will be used."
+msgstr "Si se configura a 0 se usará el cálculo automático."
+
+#: mystickymenu.php:789
+msgid "CSS style"
+msgstr "Estilo CSS"
+
+#: mystickymenu.php:510
+msgid "Add sticky menu / header to any theme. <br />Simply change 'Sticky Class' to HTML element class desired to be sticky (div id can be used as well)."
+msgstr "Añade un menú/cabecera fijo a cualquier tema. <br />Simplemente cambia la \"Clase del menú fijo\" a la clase del elemento HTML que se quiere que sea fijo (también se puede usar el ID del \"div\")."
+
+#: mystickymenu.php:790
+msgid "Add/edit CSS style. Leave it blank for default style."
+msgstr "Añade/edita el estilo CSS. Déjalo en blanco para el estilo predeterminado."
+
+#: mystickymenu.php:901
+msgid "<span class=\"description\">Comma separated list of posts to enable. It should be post name, id or slug. Example: about-us, 1134, Contact Us. Leave blank if you realy want to disable sticky menu for all posts.</span>"
+msgstr "<span class=\"description\">Lista de entradas separadas por comas a activar. Debería ser un id, slug o nombre de entrada. Ejemplo: sobre-nosotros, 1134, Contáctanos. Déjalo en blanco si realmente quieres desactivar el menú fijo en todas las entradas.</span>"
+
+#: mystickymenu.php:887
+msgid "<span class=\"description\">Comma separated list of pages to enable. It should be page name, id or slug. Example: about-us, 1134, Contact Us. Leave blank if you realy want to disable sticky menu for all pages.</span>"
+msgstr "<span class=\"description\">Lista de páginas separadas por comas a activar. Debería ser un id, slug o nombre de entrada. Ejemplo: sobre-nosotros, 1134, Contáctanos. Déjalo en blanco si realmente quieres desactivar el menú fijo en todas las páginas.</span>"
+
+#: mystickymenu.php:817
+msgid "Disable at"
+msgstr "Desactivar en"
+
+#. Plugin Name of the plugin
+msgid "myStickymenu"
+msgstr "myStickymenu"
+
+#: mystickymenu.php:810
+msgid "Use this option if you plan to include CSS Style manually"
+msgstr "Usa esta opción si tienes pensado incluir manualmente estilos CSS"
+
+#: mystickymenu.php:678
+msgid "numbers 1-100."
+msgstr "números 1-100."
+
+#: mystickymenu.php:806
+msgid "Disable CSS style"
+msgstr "Desactivar estilos CSS"
+
+#: mystickymenu.php:606
+msgid "Fade or slide effect"
+msgstr "Efecto de atenuar o deslizar"
+
+#: mystickymenu.php:643
+msgid "Make visible on Scroll at homepage"
+msgstr "Hacer visible cuando se hace scroll en la página de inicio"
+
+#: mystickymenu.php:631
+msgid "Make visible on Scroll"
+msgstr "Hacer visible cuando se hace scroll"
+
+#: mystickymenu.php:621
+msgid "Disable at Small Screen Sizes"
+msgstr "Desactivado en tamaños pequeños de pantalla"
+
+#: mystickymenu.php:662
+msgid "Sticky Transition Time"
+msgstr "Tiempo de transición del menú fijo"
+
+#: mystickymenu.php:677
+msgid "Sticky Opacity"
+msgstr "Opacidad del menú fijo"
+
+#: mystickymenu.php:653
+msgid "Sticky Background Color"
+msgstr "Color de fondo del menú fijo"
+
+#: mystickymenu.php:600
+msgid "Sticky z-index"
+msgstr "Z-index del menú fijo"
+
+#: mystickymenu.php:516
+msgid "Sticky Class"
+msgstr "Clase del menú fijo"

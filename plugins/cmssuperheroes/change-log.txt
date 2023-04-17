@@ -1,0 +1,43 @@
+02.08.2020
+- update to work with new redux framework ver 4
+===========================================================================================================================
+05.08.2020
+- fix bug at function "generate_output_css" on file /includes/class-post-metabox.php
+===========================================================================================================================
+14.10.2020
+- change file /inc/class-post-metabox.php:
+	+ update function save_meta_boxes: save option with opt_name
+	+ update function add_meta_boxes: save option with opt_name
+- change file /inc/class-redux-extensions.php:
+	+ update function cms_register_extensions: patch Redux Extension errors
+===========================================================================================================================
+16.09.2021
+- update VCModify
+===========================================================================================================================
+09.12.2021
+- update file \libraries\scss.inc.php: fix error with function sortArgs about $key variable when access array offset on value of type null
+===========================================================================================================================
+1.1.5 | 23.02.2022
+- update file /includes/class-menu-hanlde.php: add condition if not exist class CMS_PORTAL
+===========================================================================================================================
+1.1.6 | 24.02.2022
+- compability with new redux plugin
+===========================================================================================================================
+1.1.7 | 23.03.2022
+- add current class for parent menu when submenu item activated
+===========================================================================================================================
+1.1.8 | 25.03.2022
+- update wp_localize_script post_format
+===========================================================================================================================
+1.1.9 | 26.03.2022
+- update post_format.js
+===========================================================================================================================
+1.2.0 | 03.06.2022
+- update cms-front.js: move carousel code to cms-front-carousel.js file and enqueue it.
+===========================================================================================================================
+1.2.1 | 08.09.2022
+- file /includes/class-post-metabox.php in funciton generate_output_css: Function Redux::setSections use Redux::get_sections
+===========================================================================================================================
+1.2.2 | 22.11.2022
+- file /templates/panel-post-meta/menu-container.tpl.php dont use var $k for section_menu, change it by var $count
+===========================================================================================================================

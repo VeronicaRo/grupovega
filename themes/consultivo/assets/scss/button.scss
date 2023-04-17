@@ -1,0 +1,181 @@
+/* CMS Button */
+.btn,
+button,
+.button,
+input[type="submit"] {
+  background-color: $primary_color;
+  font-size: 14px;
+  font-family: $default_font;
+  border: 2px solid transparent;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 14px 35px;
+  @include transition(all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0s);
+  @include border-radius(30px);
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;  
+  font-weight: bold;
+  position: relative;
+  z-index: 98;
+  &.no-radius{
+    @include border-radius(2px);
+  }
+  &.has-icon{
+    &:after{
+      font-family: FontAwesome;
+      content: "\f054";
+    }
+  }
+}
+.btn:hover,
+button:hover,
+.button:hover,
+input[type="submit"]:hover,
+.btn:focus,
+button:focus,
+.button:focus,
+input[type="submit"]:focus,
+.btn.focus,
+.btn:active {
+  outline: none;
+  text-decoration: none;
+  background-color: #fff;
+  border-color: $primary_color;
+  color: $primary_color;
+  cursor: pointer;
+}
+.button.border,
+.btn.border
+button.border{
+  background: none;
+  &:hover{
+    background: #fff;
+    color: $primary_color;
+  }
+}
+.btn {
+  &.btn-dark{
+    @include transition(all ease-in-out .3s);
+    background: #333;
+    color: #fff;
+    border-color: #333;
+    font-family: $secondary_font;
+    font-size: 14px;
+    &:hover{
+      background:  $primary_color;
+      border-color: $primary_color;
+    }
+  }
+  /* Button Style */
+  &.btn-outline {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid $primary_color;
+    color: $primary_color;
+    &:hover, &:focus, &:active {
+      border-color: $primary_color;
+      color: #fff;
+      background-color: $primary_color;
+    }
+  }
+  &.btn-primary-outline {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid $primary_color;
+    color: $primary_color;
+    &:not(:hover) {
+      @include box-shadow(none);
+    }
+    &:hover, &:focus, &:active {
+      border-color: $primary_color !important;
+      color: #fff !important;
+      background-color: $primary_color !important;
+    }
+  }
+  &.btn-secondary {
+    background-color: $primary_color;
+    border-color: $primary_color;
+    color: #fff;
+    &:hover, &:focus, &:active {
+      border-color: #333;
+      background-color: #333;
+      color: #fff;
+    }
+  }
+  &.btn-primary-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: $primary_color;
+    position: relative;
+    z-index: 9;
+    &:hover {
+      background-color: #333;
+      border-color: #333;
+      color: #fff;
+    }
+  }
+  /* Button Size */
+  &.size-lg {
+    line-height: 58px;
+    font-size: 18px;
+  }
+  &.btn-normal-link{
+    padding: 0px;
+    border: 0px;
+    background: none;
+    color: $primary_color;
+    span{
+      &:after{
+        content: "\f178";
+        font-family: FontAwesome;
+        opacity: 0;
+        font-size: 15px;
+        margin-left: 5px;
+      }
+    }
+    &:hover{
+      background: none;
+      color: $primary_color;
+      span{
+        &:after{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.btn-align-center {
+  text-align: center;
+}
+.btn-align-right {
+  text-align: right;
+}
+.btn-group .btn + .btn {
+  margin-left: 30px;
+}
+.btn-contact {
+  display: inline-block;
+  margin-right: 30px;
+  + .fanbox-contact {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.btn-block {
+  display: block;
+}
+.btn-text {
+  color: $primary_color;
+  border-bottom: 1px solid rgba($primary_color, 0.2);
+  display: inline-block;
+  &:hover, &:focus, &:active {
+    color: lighten($primary_color, 0.1);
+  }
+}
+@media #{$max-sm} {
+  .btn-contact {
+    display: block;
+    margin: 0 0 20px;
+  }
+}
